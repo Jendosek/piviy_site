@@ -1,0 +1,790 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Перша сторінка */
+/* хедер */
+
+.wrapper {
+    background-color: #FBEBB5;
+}
+
+header {
+    display: flex;
+    width: 1440px;
+    height: 100px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.header_text {
+    display: flex;
+    width: 430px;
+    margin-left: 345px;
+    margin-right: 200px;
+    justify-content: space-between;
+}
+
+.header_text a {
+    position: relative;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    /* padding: 0 10px; на всякий */
+}
+
+.header_text a::after {
+    content: "";
+    position: absolute;
+    background-color: #fca92c;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -3px;
+    transition: 0.3s;
+}
+
+.header_text a:hover {
+    color:#626262;
+}
+
+.header_text a:hover::after{
+    width: 100%
+}
+
+
+
+.icons {
+    display: flex;
+    width: 247px;
+    margin-left: 258px;
+    justify-content: space-between;
+}
+
+.icons img {
+    width: 28px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header_text a {
+    color: black;
+    font-weight: bold;
+}
+
+header img {
+    width: 90px;
+}
+
+/* перша секція */
+
+.main1 {
+    width: 1440px;
+    height: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.main1 img {
+    width: 800px;
+    height: 700px;
+    margin-top: 130px;
+}
+
+.container {
+    margin-top: 328px;
+    margin-left: 152px;
+}
+
+.container h1 {
+    font-size: 50px;
+}
+
+.container a {
+    display: block;
+    margin-top: 35px;
+    font-size: 24px;
+    color: black;
+    transition: 0.3s;   
+}
+
+.container a:hover {
+    transform: scale(1.1);
+    font-size: 25px;
+    color:#626262;
+}
+
+.container hr {
+    margin-top: 10px;
+    width: 145px;
+    border: 1px solid black;
+}
+
+
+.wrapper_grey {
+    background: rgb(250, 244, 244);
+}
+
+/* друга секція */
+
+.main2 {
+    margin: 0 auto;
+    height: 880px;
+    width: 1440px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.con1 img {
+    margin-top: 150px;
+    width: 505px;
+    height: 500px;
+    transition: 0.3s;
+}
+
+.con1 img:hover, .con2 img:hover {
+    transform: scale(105%);
+}
+
+.con2 img {
+    margin-top: 20px;
+    width: 500px;
+    height: 650px;
+    transition: 0.3s;
+}
+
+.con1 h2,
+.con2 h2 {
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+.con1 a,
+.con2 a {
+    display: block;
+    margin-top: 15px;
+    font-size: 19px;
+    color: black;
+    transition: 0.3s;
+}
+
+.con1 a:hover, .con2 a:hover {
+    color: #626262;
+    transform: scale(1.03);
+    font-size: 21px;
+}
+
+.con1 hr,
+.con2 hr {
+    margin-top: 10px;
+    width: 150px;
+    border: 1px solid black;
+}
+
+/* третя секція */
+
+.main3 {
+    margin: 0 auto;
+    width: 1440px;
+    height: 777px;
+}
+
+.main3 .container3 {
+    display: flex;
+    width: 1320px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 104px;
+}
+
+.box1 img:hover, .box2 img:hover, .box3 img:hover, .box4 img:hover {
+    transform: scale(115%);
+}
+
+.box1 img, .box2 img, .box3 img, .box4 img {
+    transition: 0.3s;
+}
+
+.main3 h2 {
+    text-align: center;
+    margin-top: 55px;
+    font-size: 36px;
+}
+
+.hed {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(159, 159, 159);
+}
+
+.main3 a {
+    color: black;
+}
+
+.stupid {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    margin-top: 75px;
+    transition: 0.3s;
+}
+
+.stupid:hover {
+    transform: scale(1.1);
+    color: #626262;
+}
+
+.main3 hr {
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 160px;
+    border: 1px solid black;
+}
+
+.container3 img {
+    width: 283px;
+}
+
+.container3 p {
+    margin-top: 25px;
+}
+
+.container3 h3 {
+    margin-top: 20px;
+}
+
+/* четверта секція */
+
+.main4 {
+    width: 1440px;
+    height: 639px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.main4 img {
+    width: 700px;
+    height: 600px;
+}
+
+.main4 h2 {
+    margin-left: 155px;
+    font-size: 48px;
+}
+
+.main4 a {
+    display: block;
+    text-align: center;
+    margin-left: 168px;
+    font-size: 20px;
+    color: black;
+    border: 1px black solid;
+    padding: 17px 75px;
+    margin-top: 25px;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+
+.main4 a:hover {
+    background-color: #fdfdfd;
+}
+
+.main4 p {
+    margin-left: 266px;
+    margin-top: 207px;
+    font-size: 24px;
+}
+
+.wrapper_yellow {
+    background-color: #FFF9E6;
+}
+
+/* п'ята секція */
+
+.main5 {
+    background-image: url("img/main/images/Rectangle\ 17.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+}
+
+.main5 a {
+    display: block;
+    text-align: center;
+    width: 255px;
+    font-size: 20px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    padding: 10px;
+    margin: 0 auto;
+    box-shadow: 0px 12px 20px grey;
+    margin-top: 30px;
+    transition: 0.3s;
+}
+
+.main5 a:hover {
+    transform: scale(1.1);
+}
+
+.main5 h2 {
+    padding-top: 124px;
+    font-size: 60px;
+}
+
+.main5 p {
+    font-size: 18px;
+}
+
+.main5 h2,
+.main5 p {
+    text-align: center;
+}
+
+/* футер */
+
+.footer {
+    width: 1440px;
+    height: 555px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.footer a {
+    color: black;
+}
+
+.footer a:hover {
+    color:#626262;
+}
+
+.frst {
+    display: flex;
+    width: 1330px;
+    justify-content: space-between;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+.three {
+    margin-left: 50px;
+}
+
+.two p,
+.three p {
+    margin-bottom: 50px;
+}
+
+.mbt {
+    margin-bottom: 50px;
+}
+
+.pbt {
+    margin-top: 75px;
+    text-transform: uppercase;
+}
+
+.color-grey {
+    color: #8a8a8a;
+}
+
+.one {
+    width: 365px;
+    margin-top: 75px;
+}
+
+.scn {
+    margin-top: 36px;
+}
+
+/* дргуа сторінка */
+
+/* перша секція */
+
+.shop1 {
+    background-image: url(img/shop/images/background-imaage.png);
+    background-size: cover;
+    background-position: center;
+    height: 316px;
+    margin: 0 auto;
+}
+
+.shop1 h2 {
+    margin: 0 auto;
+    width: 124px;
+    font-size: 43px;
+    padding-top: 121px;
+}
+
+.shop-con {
+    display: flex;
+    width: 121px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.shop-con p {
+    font-size: 16px;
+}
+
+.bl {
+    font-weight: 550;
+}
+
+/* друга секція */
+.wrapper_grey_shop {
+    margin-top: 47px;
+    background-color: #FAf4F4;
+}
+
+.shop2 {
+    width: 1440px;
+    height: 100px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+    width: 85px;
+    justify-content: space-between;
+}
+
+.filter p:hover{
+    color: #626262;
+}
+
+.shop2 a {
+    color: black;
+    margin-top: 5px;
+}
+
+.filter img {
+    width: 28px;
+}
+
+.icons {
+    align-items: center;
+    margin-left: 23px;
+    width: 344px;
+    justify-content: space-between;
+}
+
+.line {
+    width: 1px;
+    height: 37px;
+    background-color: rgb(159, 159, 159)
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    margin-left: 580px;
+    width: 433px;
+    justify-content: space-between;
+}
+
+.box {
+    background-color: #ffffff;
+    color: #9f9f9f;
+    padding: 10px 15px;
+}
+
+.box_def {
+    background-color: #ffffff;
+    color: #9f9f9f;
+    padding: 10px 70px 10px 15px;
+}
+
+/* перелік товарів */
+
+.store {
+    display: flex;
+    width: 1440px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.store img {
+    width: 263px;
+}
+
+.store p {
+    margin-top: 25px;
+}
+
+.store h3 {
+    margin-top: 20px;
+}
+
+.store2 {
+    display: flex;
+    width: 1440px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.store2 img {
+    width: 263px;
+}
+
+.store2 p {
+    margin-top: 25px;
+}
+
+.store2 h3 {
+    margin-top: 20px;
+}
+
+
+.store3 {
+    display: flex;
+    width: 1440px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.store3 img {
+    width: 263px;
+}
+
+.store3 p {
+    margin-top: 25px;
+}
+
+.store3 h3 {
+    margin-top: 20px;
+}
+
+
+.store4 {
+    display: flex;
+    width: 1440px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.store4 img {
+    width: 263px;
+}
+
+.store4 p {
+    margin-top: 25px;
+}
+
+.store4 h3 {
+    margin-top: 20px;
+}
+
+/* кнопки */
+
+.buttons {
+    display: flex;
+    width: 392px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+.other {
+    background-color: #fff9e6;
+}
+
+.other:hover{
+    background-color: #fbebb5;
+}
+
+.buttons p {
+    padding: 15px 22px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.buttons a {
+    color: black;
+}
+
+/* штучка перед футером */
+
+.shop3_wrapper {
+    background-color: #faf4f4;
+}
+
+.shop3 {
+    width: 1440px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.shop3 h2 {
+    font-size: 32px;
+}
+
+.shop3 p {
+    font-size: 20px;
+}
+
+.shop3_box1,  .shop3_box2, .shop3_box3 {
+    width: 400px;
+}
+
+/* футер */
+
+
+/* третя сторінка */
+
+.acc_page {
+    background-image: url(img/shop/images/background-imaage.png);
+    background-size: cover;
+    background-position: center;
+    height: 316px;
+    margin: 0 auto;
+}
+
+.acc_page h2 {
+    margin: 0 auto;
+    width: 285px;
+    font-size: 43px;
+    padding-top: 121px;
+}
+
+.acc-con {
+    display: flex;
+    width: 184px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.acc-con p {
+    font-size: 16px;
+}
+
+.general {
+    width: 1242px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+    margin-bottom: 125px;
+}
+
+.account-box1 {
+    width: 608px;
+}
+
+.account-box1 h2 {
+    font-size: 36px;
+    margin-bottom: 36px;
+}
+
+.tupo_vn {
+    margin-bottom: 22px;
+}
+
+.tupo_vn1 {
+    margin-bottom: 36px;
+}
+
+.tupo_vn2 {
+    margin-bottom: 43px;
+}
+
+input[type="text"] {
+    width: 423px;
+    height: 75px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.check {
+    display: flex;
+    width: 155px;
+    justify-content: space-between;
+    margin-bottom: 36px;
+}
+
+input[type="checkbox"] {
+    width: 30px;
+    border-radius: 5px;
+}
+
+.butt {
+    display: flex;
+    width: 406px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.butt_under {
+    width: 215px;
+    height: 64px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.butt a {
+    color: black;
+}
+
+
+.account-box2 {
+    width: 608px;
+}
+
+.account-box2 h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.blod {
+    font-weight: bold;
+    color: black;
+}
+
+.acc_frst {
+    width: 490px;
+    margin-bottom: 32px;
+}
+
+.acc_sec {
+    width: 490px;
+    margin-bottom: 48px;
+}
+
+.butt_register {
+    width: 215px;
+    height: 64px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.butt_register:hover, .butt_under:hover {
+    background-color: #e9e9e9;
+}
+
+.butt a:hover {
+    color:#626262;
+}
